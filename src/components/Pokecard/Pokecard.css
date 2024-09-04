@@ -1,0 +1,39 @@
+.kacheln {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9vw 4vw;
+  margin: 0 3vw;
+}
+.kacheln a {
+  text-decoration: none;
+  color: black;
+}
+.poke-box {
+  background: var(--colorgradient);
+  width: 100%;
+  height: 10rem;
+  position: relative;
+  border-radius: 25px;
+}
+
+.poke-box p {
+  text-transform: capitalize;
+}
+
+.pokname {
+  position: absolute;
+  right: 15px;
+  bottom: 11px;
+  z-index: 1;
+  text-transform: capitalize;
+}
+.unterediv {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  right: 0;
+  background-color: rgb(251, 245, 245);
+  padding: 20px 0;
+  z-index: 0;
+  border-radius: 0 0 25px 25px;
+}

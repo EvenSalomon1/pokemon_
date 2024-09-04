@@ -1,0 +1,22 @@
+.singlebox {
+  display: flex;
+  justify-content: center;
+}
+
+.singlebox img {
+  width: 180px;
+  height: 170px;
+  margin-top: -40px;
+  margin-inline: auto;
+}
+.pok-id {
+  position: absolute;
+  left: 15px;
+  bottom: 11px;
+  z-index: 1;
+}
+
+.poke-box p:first-of-type {
+  color: black;
+  text-decoration: none;
+}
